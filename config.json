@@ -1,0 +1,22 @@
+{
+  "OUTPUT_FILE": "all_code_context.txt",
+  "IGNORE_DIRS": [
+    ".git", ".idea", ".vs", ".vscode", "bin", "obj", ".pio",
+    "__pycache__", "venv", ".venv", "env", "node_modules", "build", 
+    "out", "dist", "target", "Debug", "Release", "packages", ".next", ".nuxt"
+  ],
+  "ALLOWED_EXTENSIONS": [
+    ".cs", ".cpp", ".c", ".h", ".hpp", ".cc", ".cxx", ".java", ".py", ".ino", ".go", 
+    ".rb", ".php", ".js", ".ts", ".jsx", ".tsx", ".vue", ".svelte", ".html", ".css", 
+    ".scss", ".less", ".txt", ".md", ".json", ".xml", ".yaml", ".yml", ".toml", ".csv",
+    ".axaml", ".xaml", ".csproj", ".sln", ".resx", ".config", ".appconfig", ".razor", 
+    ".cshtml", ".props", ".targets", ".sh", ".bat", ".cmd", ".ps1", ".ini", ".env", 
+    ".properties", ".conf", ".cfg", ".sql", ".graphql", ".proto"
+  ],
+  "ALLOWED_FILES": [
+    ".gitignore", ".dockerignore", ".editorconfig", "app.config", 
+    "platformio.ini", "requirements.txt", "Dockerfile", "docker-compose.yml", 
+    "docker-compose.yaml", "Makefile", "CMakeLists.txt", "package.json", 
+    "tsconfig.json", "pom.xml", "build.gradle", "app.manifest"
+  ]
+}

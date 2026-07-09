@@ -1,0 +1,12 @@
+__pycache__/
+betaicons/
+.vscode/
+.venv/
+build/
+dist/
+venv/
+env/
+*.spec
+all_code_context.txt
+*.pyc
+bebebe.txt
