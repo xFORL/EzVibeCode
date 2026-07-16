@@ -1,12 +1,35 @@
+# Кэш Python
 __pycache__/
-betaicons/
-.vscode/
+*.pyc
+*.pyo
+*.pyd
+
+# Виртуальные окружения
 .venv/
-build/
-dist/
 venv/
 env/
+ENV/
+
+# Временные папки и данные
+build/
+dist/
 *.spec
+
+# Настройки IDE
+.vscode/
+.idea/
+*.suo
+*.workspace
+
+# Мусор
 all_code_context.txt
-*.pyc
-bebebe.txt
+*.log
+
+# Системный мусор
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Черновики и временные ресурсы разработки
+betaicons/
+bebebe/
