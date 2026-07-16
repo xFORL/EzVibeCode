@@ -1,9 +1,11 @@
 {
-  "OUTPUT_FILE": "all_code_context.txt",
-  "IGNORE_DIRS": [
-    ".git", ".idea", ".vs", ".vscode", "bin", "obj", ".pio",
-    "__pycache__", "venv", ".venv", "env", "node_modules", "build", 
-    "out", "dist", "target", "Debug", "Release", "packages", ".next", ".nuxt"
+  "FILENAME": "all_code_context.txt",
+  "ALLOWED_DIRS": [],
+  "ALLOWED_FILES": [
+    ".gitignore", ".dockerignore", ".editorconfig", "app.config", 
+    "platformio.ini", "library.json", "requirements.txt", "Dockerfile", 
+    "docker-compose.yml", "docker-compose.yaml", "Makefile", "CMakeLists.txt", 
+    "package.json", "tsconfig.json", "pom.xml", "build.gradle", "app.manifest"
   ],
   "ALLOWED_EXTENSIONS": [
     ".cs", ".cpp", ".c", ".h", ".hpp", ".cc", ".cxx", ".java", ".py", ".ino", ".go", 
@@ -13,10 +15,16 @@
     ".cshtml", ".props", ".targets", ".sh", ".bat", ".cmd", ".ps1", ".ini", ".env", 
     ".properties", ".conf", ".cfg", ".sql", ".graphql", ".proto"
   ],
-  "ALLOWED_FILES": [
-    ".gitignore", ".dockerignore", ".editorconfig", "app.config", 
-    "platformio.ini", "requirements.txt", "Dockerfile", "docker-compose.yml", 
-    "docker-compose.yaml", "Makefile", "CMakeLists.txt", "package.json", 
-    "tsconfig.json", "pom.xml", "build.gradle", "app.manifest"
+  "IGNORE_DIRS": [
+    ".git", ".idea", ".vs", ".vscode", "bin", "obj", 
+    ".pio", ".pioenvs", ".piolibdeps",
+    "__pycache__", "venv", ".venv", "env", "node_modules", "build", 
+    "out", "dist", "target", "Debug", "Release", "packages", ".next", ".nuxt"
+  ],
+  "IGNORE_FILES": [
+    "secret.json", ".env.local"
+  ],
+  "IGNORE_EXTENSIONS": [
+    ".exe", ".dll", ".png", ".jpg", ".jpeg", ".gif", ".mp4", ".mp3", ".log", ".min.js", ".min.css"
   ]
 }
